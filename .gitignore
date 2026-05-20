@@ -1,0 +1,32 @@
+# dependencias
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# datos runtime (sesión Baileys y base de datos)
+auth/
+data/
+
+# entorno local
+.env.local
+.env*.local
+
+# logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript build cache
+tsconfig.tsbuildinfo
+
+# Next.js generated types
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
